@@ -1,0 +1,28 @@
+.containerHabilidades {
+  min-height: 100vh;
+  background-color: #13131f;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding-top: 150px;
+}
+.quadroHabilidades {
+  width: 141vh;
+  min-height: 30vh;
+  margin-top: 40px;
+  display: flex;
+  gap: 70px;
+}
+span {
+  font-size: 100px;
+}
+@media screen and (min-width: 360px) and (max-width: 800px) {
+  .quadroHabilidades {
+    flex-wrap: wrap;
+    width: 50vh;
+    gap: 40px;
+    margin-left: 17vh;
+  }
+}

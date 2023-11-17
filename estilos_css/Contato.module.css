@@ -1,0 +1,35 @@
+.containerContato {
+  min-height: 68vh;
+  background-color: #13131f;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.iconesContato {
+  display: flex;
+  width: 140vh;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
+.icones {
+  transition: transform 1.5s;
+  cursor: pointer;
+}
+.icones:hover {
+  transform: scale(1.2);
+}
+@media screen and (min-width: 360px) and (max-width: 800px) {
+  .iconesContato {
+    display: flex;
+    width: 40vh;
+
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
