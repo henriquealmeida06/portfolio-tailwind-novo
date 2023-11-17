@@ -1,4 +1,6 @@
 import Home from "./pages/Home";
+import Sobre from "./pages/Sobre";
+
 
 function App() {
   return (
@@ -8,6 +10,7 @@ function App() {
         <Home />
       </section>
       <section id="sobre"></section>
+      <Sobre/>
       <section id="habilidades"></section>
       <section id="projetos"></section>
       <section id="contatos"></section>
