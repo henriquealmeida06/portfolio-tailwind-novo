@@ -6,6 +6,8 @@ import Todo from "./../assets/img/img_todo.png";
 import { FaHtml5, FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiStyledcomponents } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
+
 
 function Projetos() {
   function abrirCalculadora() {
@@ -21,16 +23,16 @@ function Projetos() {
     window.open("https://to-do-list-gold-seven.vercel.app/", "_blank");
   }
   return (
-    <div className={styles.containerProjetos}>
-      <h1>Projetos</h1>
+    <div className=" text-white flex flex-col justify-start justify-center font-roboto1 mt-36">
+      <h1 className="text-2xl font-bold text-center mb-24">Projetos</h1>
 
-      <div className={styles.projetos}>
+      <div className="flex flex-wrap gap-11 items-center justify-center">
         <BlocoProjeto
           onClick={abrirUrna}
           imagem={Urna}
           nome="Urna (Em Construção)"
           tecnologia1={<FaHtml5 />}
-          tecnologia2={<SiStyledcomponents />}
+          tecnologia2={<SiTailwindcss />}
           tecnologia3={<IoLogoJavascript />}
           tecnologia4={<FaReact />}
         />
@@ -39,7 +41,7 @@ function Projetos() {
           imagem={Clima}
           nome="Clima do Tempo"
           tecnologia1={<FaHtml5 />}
-          tecnologia2={<SiStyledcomponents />}
+          tecnologia2={<SiTailwindcss />}
           tecnologia3={<IoLogoJavascript />}
           tecnologia4={<FaReact />}
         />
@@ -48,7 +50,7 @@ function Projetos() {
           imagem={Calculadora}
           nome="Calculadora Xiaomi Dark"
           tecnologia1={<FaHtml5 />}
-          tecnologia2={<SiStyledcomponents />}
+          tecnologia2={<SiTailwindcss />}
           tecnologia3={<IoLogoJavascript />}
           tecnologia4={<FaReact />}
         />
@@ -57,7 +59,7 @@ function Projetos() {
           imagem={Todo}
           nome="Lista de Tarefas"
           tecnologia1={<FaHtml5 />}
-          tecnologia2={<SiStyledcomponents />}
+          tecnologia2={<SiTailwindcss />}
           tecnologia3={<IoLogoJavascript />}
           tecnologia4={<FaReact />}
         />

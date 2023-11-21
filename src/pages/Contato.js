@@ -1,4 +1,4 @@
-import styles from "./Contato.module.css";
+
 import IconesContato from "../components/IconesContato";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsTelephone } from "react-icons/bs";
@@ -20,9 +20,9 @@ function Contato() {
   }
 
   return (
-    <div className={styles.containerContato}>
-      <h1>Contatos</h1>
-      <div className={styles.iconesContato}>
+    <div className="text-white font-roboto1 font-bold lg:h-screen flex items-center justify-center flex-col">
+      <h1 className="text-2xl mc:mt-32">Contatos</h1>
+      <div className="mt-32 flex lg:flex-row md:flex-row justify-center items-center gap-20 flex-wrap mc:flex-col">
         <IconesContato
           onClick={abrirEmail}
           icone={<HiOutlineMail />}
