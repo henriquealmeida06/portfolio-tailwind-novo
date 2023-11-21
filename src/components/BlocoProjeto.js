@@ -12,7 +12,7 @@ function BlocoProjeto({
   nome_tecnologia,
 }) {
   return (
-    <div onClick={onClick} className="flex flex-col max-w-md font-roboto1 transition-transform duration-200 hover:scale-110 cursor-pointer">
+    <div onClick={onClick} className="flex flex-col md:max-w-md mc:w-96 font-roboto1 transition-transform duration-200 hover:scale-110 cursor-pointer">
       <div className="overflow-hidden flex justify-center items-center w-full h-full bg-black border-b-4 border-roxoBorda">
         <img className="opacity-50 hover:opacity-100" src={imagem} />
       </div>

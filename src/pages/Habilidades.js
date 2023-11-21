@@ -7,7 +7,7 @@ import IconesHabilidades from '../components/IconesHabilidades'
 function Habilidades(){
     return(
         <div className="font-roboto1 text-white flex flex-col justify-center items-center">
-            <h1 className=" text-2xl font-bold text-center">Habilidades</h1>
+            <h1 className=" text-2xl font-bold text-center md:mt-28">Habilidades</h1>
             <div className="flex gap-16 items-center justify-center mt-28 font-roboto1 flex-wrap w-3/4">
             <IconesHabilidades habilidade="HTML5" icone={<FaHtml5/>}/>
             <IconesHabilidades habilidade="CSS3" icone={<FaCss3Alt/>}/>

@@ -24,7 +24,7 @@ function Projetos() {
   }
   return (
     <div className=" text-white flex flex-col justify-start justify-center font-roboto1 mt-36">
-      <h1 className="text-2xl font-bold text-center mb-24">Projetos</h1>
+      <h1 className="text-2xl font-bold text-center mb-24 md:mt-28">Projetos</h1>
 
       <div className="flex flex-wrap gap-11 items-center justify-center">
         <BlocoProjeto
