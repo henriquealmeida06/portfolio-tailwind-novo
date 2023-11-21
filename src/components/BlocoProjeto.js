@@ -22,7 +22,7 @@ function BlocoProjeto({
           <p>{nome}</p>
         </div>
         <div className="flex flex-row justify-center ">
-          <span className="flex flex-wrap text-roxoBorda text-3xl gap-4 mt-4">
+          <span className="flex flex-wrap text-roxoBorda md:text-3xl mc:text-2xl gap-4">
             {tecnologia1}
             {tecnologia2}
             {tecnologia3}
