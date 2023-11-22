@@ -1,39 +1,34 @@
-import styles from "./NavBar.module.css";
+
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
 
-function NavBar() {
-  const [sideBar, setSideBar] = useState(false);
-
-  function showSideBar() {
-    setSideBar(!sideBar);
-  }
-
+function NavBar({onClick}) {
+ 
   return (
-    <nav>
-      <div className="lg:hidden md:hidden cursor-pointer">
-        <GiHamburgerMenu onClick={showSideBar} />
+    <nav className="flex justify-around items-center bg-azulPadrao pt-5 pb-5 text-white font-roboto1 fixed border-1 border-b border-roxoBorda z-10 w-full z-20">
+      <div className="lg:hidden md:hidden cursor-pointer" onClick={onClick}>
+        <GiHamburgerMenu />
       </div>
 
-      <p className={styles.p_portifolio}>
+      <p className="text-3xl">
         <a href="#home">Portfólio</a>
       </p>
 
-      <div className={styles.menuDesktop}>
-        <ul>
-          <li>
+      <div className="mc:hidden md:block">
+        <ul className="flex gap-10 list-none text-inherit">
+          <li className="cursor-pointer hover:text-roxoBorda">
             <a href="#home">Página Inicial</a>
           </li>
-          <li>
+          <li className="cursor-pointer hover:text-roxoBorda">
             <a href="#sobre">Sobre mim</a>
           </li>
-          <li>
+          <li className="cursor-pointer hover:text-roxoBorda">
             <a href="#habilidades">Habilidades</a>
           </li>
-          <li>
+          <li className="cursor-pointer hover:text-roxoBorda">
             <a href="#projetos">Projetos</a>
           </li>
-          <li>
+          <li className="cursor-pointer hover:text-roxoBorda">
             <a href="#contatos">Contatos</a>
           </li>
         </ul>

@@ -32,7 +32,8 @@ module.exports = {
       fontSize: {
         px55: '55px',
         px40: '40px',
-      }
+      },
+      
     },
   },
   plugins: [],
