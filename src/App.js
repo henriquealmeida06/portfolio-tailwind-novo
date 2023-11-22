@@ -30,7 +30,7 @@ function App() {
       <div className=" bg-azulPadrao sm:px-20 md:px-20 mc:pb-11 mc:pt-20 md:pt-0">
         <div>
           {abrirSide && (
-            <SideBar/>
+            <SideBar secao1="#home" secao2="#sobre" secao3="#habilidades" secao4="#projetos" secao5="#contatos"/>
           )}
         </div>
        
