@@ -6,7 +6,7 @@ import { LuContact2 } from "react-icons/lu";
 
 function SideBar(props){
     return(
-        <div class="bg-azulPadrao w-52 h-screen text-white flex justify-center items-start pt-28 font-roboto1 fixed border-1 border-r border-roxoBorda z-10 md:hidden ">
+        <div class="bg-azulPadrao w-52 h-screen text-white flex justify-center items-start pt-14 font-roboto1 fixed border-1 border-r border-roxoBorda z-10 md:hidden opacity-90 ">
             <ul>
                 <li className="flex justify-start items-center gap-3 text-lg mb-3 ">
                 <AiOutlineHome />
