@@ -6,7 +6,7 @@ function NavBar({onClick}) {
  
   return (
     <nav className="flex justify-around items-center bg-azulPadrao pt-5 pb-5 text-white font-roboto1 fixed border-1 border-b border-roxoBorda z-10 w-full z-20">
-      <div className="lg:hidden md:hidden cursor-pointer" onClick={onClick}>
+      <div className="lg:hidden md:hidden cursor-pointer hover:text-roxoBorda" onClick={onClick}>
         <GiHamburgerMenu />
       </div>
 
