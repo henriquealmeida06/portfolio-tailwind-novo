@@ -2,6 +2,8 @@ import {FaHtml5, FaCss3Alt, FaReact} from 'react-icons/fa'
 import {IoLogoJavascript} from 'react-icons/io5'
 import {SiStyledcomponents} from 'react-icons/si'
 import { SiTailwindcss } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
+import { FaGitAlt } from "react-icons/fa";
 import IconesHabilidades from '../components/IconesHabilidades'
 
 function Habilidades(){
@@ -15,6 +17,8 @@ function Habilidades(){
             <IconesHabilidades habilidade="React" icone={<FaReact/>}/>
             <IconesHabilidades habilidade="Tailwind" icone={<SiTailwindcss />}/>
             <IconesHabilidades habilidade="CSS-in-JS" icone={<SiStyledcomponents/>}/>
+            <IconesHabilidades habilidade="Git" icone={<FaGitAlt />}/>
+            <IconesHabilidades habilidade="Github" icone={<FaGithub />}/>
                 
                 
                 
