@@ -1,6 +1,6 @@
 
 import { GiHamburgerMenu } from "react-icons/gi";
-import { useState } from "react";
+
 
 function NavBar({onClick}) {
  

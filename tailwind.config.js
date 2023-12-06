@@ -33,6 +33,9 @@ module.exports = {
         px55: '55px',
         px40: '40px',
       },
+      margin: {
+        martop: '-15px',
+      }
       
     },
   },
